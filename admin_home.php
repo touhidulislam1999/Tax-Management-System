@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 
 <head>
@@ -22,41 +21,29 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>THIN LMS</title>
+    <title>Admin Home | Tax Collection DBMS</title>
+
+    <style>
+    .btn-primary:hover {
+        background-color: #0E7F28 !important;
+    }
+    </style>
+
+   
+  
 </head>
 
 <body>
     <!-- Header -->
-    <header class="text-center header-social-icon text-lg-start bg-primary text-white">
+    <header class="text-center header-social-icon text-lg-start bg-success text-white">
         <div class="container">
             <!-- Section: Social media -->
             <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
                 <!-- Left -->
                 <div class="me-5 d-lg-block">
-                    <span class="mx-2"><i class="fa fa-phone mc-1"></i>+8801726606609</span>
-                    <span><i class="fa fa-calender mx-1"></i> Sat-Thurs: 09:00-05:00</span>
+                    <span><i class="fa fa-calender mx-1"></i> People's Republic of Bangladesh</span>
                 </div>
                 <!-- Left -->
-
-                <!-- Right -->
-                <div>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fa fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fa fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </div>
-                <!-- Right -->
             </section>
             <!-- Section: Social media -->
 
@@ -65,78 +52,72 @@
 
 
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">THIN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <!--Notices-->
-                    <!--<li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Notices</a>
-                    </li>-->
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-
-                </ul>
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-                    </li>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="admin_home.php">Tax Database <br> Management System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- Use ms-auto class to push items to the right -->
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="admin_home.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="show_users.php">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="add_users.php">Register Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="edit_taxes.php">Edit Taxes</a>
+                </li>
+                <li class = 'nav-item'>
+                    <a class = 'nav-link active' aria-current = 'page' href = 'admin_profile.php'>My Profile</a>
+                </li>
+                <li class = 'nav-item'>
+                    <a class = 'nav-link active' aria-current = 'page' href = 'logout.php'>Log out</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
     <!--Navbar Ends-->
 
     <!--Carousel Start-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="h-100 w-100"
-                    src="https://cdn.pixabay.com/photo/2020/09/29/10/42/library-5612441_960_720.jpg"
+                    src="Tools/One.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-                    <h2><span>Welcome</span> to THIN</h2>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h2><span>Welcome</span> To Tax Collection System</h2>
+                    
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="h-100 w-100"
-                    src="https://cdn.pixabay.com/photo/2016/09/13/08/44/library-1666702_960_720.jpg"
+                    src="Tools/Two.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-                    <h2><span>Happy</span> School</h2>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="h-100 w-100" src="https://cdn.pixabay.com/photo/2017/04/27/22/56/book-2266906_960_720.png"
+                <img class="h-100 w-100" src="Tools/Three.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-                    <h2><span>Study</span> Hard</h2>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    
                 </div>
             </div>
         </div>
@@ -156,33 +137,30 @@
 
 
     <!--About Start-->
-    <main id="about">
+    <main id="about"  class="mt-5 mb-5">
         <div class="about mt-5 mb-5">
             <div class="container">
                 <!--Section Head Starts-->
                 <h2 class="h2-responsive fw-bold text-center my-2">About</h2>
-                <p class="text-center w-responsive mx-auto mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing
-                    elit. Perspiciatis, non optio autem dignissimos earum quisquam quam illum corrupti harum nisi ab eos
-                    quasi reiciendis? Tempore architecto dolores veritatis nam eveniet?</p>
+                <style>
+                    .section-heading {
+            color: black;
+                      }
+    </style>
+                <p class="text-center w-responsive mx-auto mb-1">A momentous step in the Government of Bangladesh's promise of a Digital Bangladesh, this website is an integrated solution for e-payment of income taxes, road, and other taxes. The site employs global-standard secure payment systems and is very simple to use.</p>
                 <!--Section Head Ends-->
 
-                <div class="row pt-5">
-                    <div class="col-md-6 align-items-strech">
+                <div class="row pt-5 align-items-center">
+                    <div class="col-md-6 ">
                         <img class="img-fluid"
-                            src="https://cdn.pixabay.com/photo/2020/12/03/11/37/man-5800290_960_720.png" alt="">
+                            src="Tools/Four.jpg" alt="">
                     </div>
-                    <div class="col-md-6">
-                        <h2 class="h2-responsive fw-bold text-start section-heading ">Important</h2>
-                        <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facere ab
-                            placeat nobis aliquam, ex ratione quidem fugiat consequuntur quaerat odit, deserunt impedit
-                            rerum perspiciatis? Totam voluptate accusamus itaque debitis architecto? Dolorem, libero
-                            earum deserunt fugiat quam expedita voluptatibus nostrum fugit totam inventore neque, sequi
-                            laborum molestiae repellat, velit illo.</p>
-                        <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fugiat
-                            laudantium sunt excepturi tenetur est deleniti iure illum qui repellendus mollitia
-                            consequuntur cupiditate</p>
+                    <div class="col-md-5">
+                        <h2 class="h2-responsive fw-bold text-start section-heading">Important</h2>
+                        <p class="lh-base">Taxation not only pays for public goods and services; it is also a key ingredient in the social contract between citizens and the economy. How taxes are raised and spent can determine a government's very legitimacy.</p>
+                        <p class="lh-base">The most important purpose of taxation is to raise resources for governments to deliver essential public services. Taxes pay for many of the things that are fundamental to functioning societies around the world, such as health care, schools, and social services. Studies have shown that the bare minimum tax revenue for countries is at least 15 percent of gross domestic product in order to be able to provide basic services to their citizens</p>
 
-                        <a href="" class="btn btn-primary px-2 pl-2 mt-3">Read More</a>
+                        
                     </div>
                 </div>
             </div>
@@ -194,54 +172,46 @@
 
 
     <!--Courses Section Start-->
-    <main id="Courses" class="course">
+    <main id="Courses" class="course mt-5 pt-4">
         <div class="container">
             <!--Section Head Starts-->
-            <h2 class="h2-responsive fw-bold text-center my-2">Courses</h2>
-            <p class="text-center w-responsive mx-auto mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Perspiciatis,
-                non optio autem dignissimos earum quisquam quam illum corrupti harum nisi ab eos quasi reiciendis?
-                Tempore
-                architecto dolores veritatis nam eveniet?</p>
+            <h2 class="h2-responsive fw-bold text-center my-2">Taxes</h2>
+            
             <!--Section Head Ends-->
 
             <div class="row mt-5">
                 <div class="col-md-4">
                     <div class="card box">
-                        <img src="https://cdn.pixabay.com/photo/2019/03/20/12/42/money-4068357_960_720.png"
+                        <img src="Tools/Seven.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">BBA</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h5 class="card-title">Road Tax</h5>
+                            <p class="card-text">Road tax, known by various names around the world, is a tax which has to be paid on, or included with, a motorised vehicle to use it on a public road.</p>
+                           
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card box">
-                        <img src="https://cdn.pixabay.com/photo/2018/02/22/18/21/laptop-3173613_960_720.png"
+                        <img src="Tools/Six.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Computer Science</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h5 class="card-title">Income Tax</h5>
+                            <p class="card-text">An income tax is a tax imposed on individuals or entities (taxpayers) in respect of the income or profits earned by them.
+                                Income tax generally is computed as the product of a tax rate times the taxable income.
+                                </p>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card box">
-                        <img src="https://cdn.pixabay.com/photo/2013/07/12/15/21/utility-pole-149743_960_720.png"
+                        <img src="Tools/Five.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Electrical Engineering</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h5 class="card-title">Land Tax</h5>
+                            <p class="card-text">A property/land tax (whose rate is expressed as a percentage or per mille, also called millage) is an ad valorem tax on the value of a property.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -251,12 +221,11 @@
 
     <!--Contact Us Starts-->
 
-    <main id="about">
+    <main id="contact" style="margin-top: 70px;">
         <div class="container">
             <!--Section Head Starts-->
             <h2 class="h2-responsive fw-bold text-center my-2">Contact Us</h2>
-            <p class="text-center w-responsive mx-auto mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consectetur, sint?</p>
+            
             <!--Section Head Ends-->
             <!--Section: Contact v.2-->
             <section class="mb-4">
@@ -327,9 +296,9 @@
 
                         </form>
 
-                        <div class="text-center text-md-left mt-3">
+                        <div class="text-center text-md-left mt-3 ">
                             <a class="btn btn-primary"
-                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                                >Send</a>
                         </div>
                         <div class="status"></div>
                     </div>
@@ -352,7 +321,7 @@
 
     <!--Footer-->
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-primary text-white pt-4">
+    <footer class="text-center text-lg-start bg-success text-white pt-4">
 
 
         <!-- Section: Links  -->
@@ -364,11 +333,11 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fa fa-home me-3"></i>University
+                            <i class="fa fa-home me-3"></i>Taxation
                         </h6>
                         <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
+                        Taxation is a term for when a taxing authority, usually a government, levies or imposes a financial obligation on its citizens or residents.
+                        Paying taxes to governments or officials has been a mainstay of civilization since ancient times.
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -377,19 +346,10 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            Products
+                            Features
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Home</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">About</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Courses</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Contact Us</a>
+                            <a href="admin_home.php" class="text-reset">Home</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -401,16 +361,16 @@
                             Useful links
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Pricing</a>
+                            <a href="#!" class="text-reset">Prime Minister's Office</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Settings</a>
+                            <a href="#!" class="text-reset">National Board of Revenue</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Orders</a>
+                            <a href="#!" class="text-reset">Controller General of Accounts</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Help</a>
+                            <a href="#!" class="text-reset">Ministry of Finance</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -419,12 +379,12 @@
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i class="fa fa-home me-3"></i> Dhaka Bangladesh</p>
+                        <p><i class="fa fa-home me-3"></i> Dhaka,Bangladesh</p>
                         <p>
                             <i class="fa fa-envelope me-3"></i>
-                            rahmantahmin64@gmail.com
+                            teamhercules1@gmail.com
                         </p>
-                        <p><i class="fa fa-phone me-3"></i> +8801749724081</p>
+                        <p><i class="fa fa-phone me-3"></i> +8801722233355</p>
 
                     </div>
                     <!-- Grid column -->
@@ -436,8 +396,8 @@
 
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2022 Copyright:
-            <a class="text-reset fw-bold" href="">Tahmin Nafi</a>
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="">Team Hercules</a>
         </div>
         <!-- Copyright -->
     </footer>
@@ -446,6 +406,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    // Get the maximum height of all card elements
+    var maxHeight = 0;
+    $(".card").each(function() {
+        var cardHeight = $(this).outerHeight();
+        if (cardHeight > maxHeight) {
+            maxHeight = cardHeight;
+        }
+    });
+    
+    // Set all card elements to have the same maximum height
+    $(".card").css("min-height", maxHeight);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+        // Change color of the "Send" button
+        var signInButton = document.querySelector(".btn-primary");
+        if (signInButton) {
+            signInButton.style.backgroundColor = "#198754";
+            signInButton.style.borderColor = "#198754";
+
+            signInButton.addEventListener("mouseover", function () {
+                signInButton.style.backgroundColor = "#116633";
+                signInButton.style.borderColor = "#116633";
+            });
+
+            signInButton.addEventListener("mouseout", function () {
+                signInButton.style.backgroundColor = "#198754";
+                signInButton.style.borderColor = "#198754";
+            });
+        }
+    });
+</script>
+
 
 </body>
 
