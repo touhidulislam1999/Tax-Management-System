@@ -14,8 +14,8 @@ A streamlined **Tax Management System** designed to simplify tax-related process
 - [📦 Project Modules](#-project-modules)
   - [🎨 Frontend Development](#-frontend-development)
   - [🖥️ Backend Development](#-backend-development)
-- [⚙️ Installation Guide](#-installation-guide)
 - [🔮 Future Enhancements](#-future-enhancements)
+- [⚙️ Installation Guide](#-installation-guide)
 
 ---
 
