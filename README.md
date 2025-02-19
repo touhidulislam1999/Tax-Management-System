@@ -16,7 +16,6 @@ A streamlined **Tax Management System** designed to simplify tax-related process
   - [🖥️ Backend Development](#-backend-development)
 - [⚙️ Installation Guide](#-installation-guide)
 - [🔮 Future Enhancements](#-future-enhancements)
-- [📜 License](#-license)
 
 ---
 
@@ -75,6 +74,10 @@ The **backend** is built using PHP and MySQL, handling **authentication, tax cal
 - **💳 Payment Processing**: Handles transactions securely and stores payment history
 
 ---
+## 🔮 Future Enhancements
+🔹 Implement Role-Based Access Control (RBAC) for enhanced security
+🔹 Integrate an Automated Tax Notification System
+🔹 Enable API-based tax calculations
 
 ## ⚙️ Installation Guide
 
